@@ -1,0 +1,306 @@
+/* 
+    POSSIBLE COLORS:
+    matt yellow: #ffd414
+    gray: #555
+    white: #fff
+    light gray: #bebebe
+    sun flower: #f1c40f
+    brighter sun flower: #ffcf05
+    beige yellow: #fff2be
+    
+    logo color: #ffcb04
+
+    silver: #bdc3c7
+
+*/
+
+
+/*          DEFAULT SETTINGS         */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #f9f9fc;
+    color: #555;
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+
+
+/*          REUSABLE CONTAINERS         */
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.row2 {
+    margin: 0; 
+}
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #000;
+    font-size: 200%;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+}
+
+
+h2 {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    color: #000;
+    font-weight: 300;
+    letter-spacing: 1px;
+    word-spacing: 2px; 
+}
+
+/*          HEADER          */
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(background1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: #bdc3c7;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+.header-text-box {
+    position: absolute;
+    width: 1140px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -140%);
+}
+
+
+/*          HEADING         */
+
+
+header h1 {
+    color: #f9f9fc;
+}
+
+.logo { 
+    height: 70px;
+    width: auto;
+    float: left;
+    margin-top: 5px;
+    margin-left: 40px;
+}
+
+.logo-text {
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 90px;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 150%;
+}
+
+.main-nav {
+    float: right;
+    margin-top: 20px;
+    margin-right: 40px;
+    list-style: none;
+    color: #f9f9fc;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-left: 40px;
+    
+}
+
+.main-nav li a:any-link {
+    padding: 8px 0px;
+    color: #f9f9fc;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    border-bottom: 2px solid transparent;
+    transition: color 0.2s;
+    transition: border-bottom 0.2s, color 0.2s;
+
+}
+
+.main-nav li a:hover,
+.main-nav li a:active{
+    border-bottom: 2px solid #f1c40f;
+}
+
+
+
+/*          HEADING BUTTONS         */
+
+.button:link,
+.button:visited {
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+    color: #555;
+    background-color:#f1c40f;
+    margin-right: 20px;
+    transition: background-color 0.2s;
+}
+
+.button:hover,
+.button:active {
+    background-color: #e2b700;
+}
+
+/*          HOW IT WORKS SECTION       */
+
+.section-features {
+    padding: 40px;
+    text-align: center; 
+}
+
+.flexbox-features{
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-evenly;
+
+
+}
+
+.flexbox-features ul{
+    list-style-type: none;
+    text-align: left;
+    display: flex;
+    flex-direction:column;
+}
+
+.flexbox-features ul li{
+    padding: 20px;
+    font-size: 150%;
+}
+
+.img-iphone{
+    height: 600px;
+    width: auto;
+}
+
+.applegooglebanner{
+    margin-top: 50px;
+    width: 300px;
+    height: auto;
+}
+
+
+/*          CITIES SECTION       */
+
+.section-cities{
+    background-color: #bdc3c7;
+    padding: 40px;
+    text-align: center;
+}
+
+.flexbox-cities{
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    margin: 80px 0 60px 10%;
+    font-weight: 300;
+}
+
+.colleges{
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+}
+
+.img-college{
+    height: auto;
+    width: 150px;
+}
+
+.asu{
+    width: 200px;
+    height: auto;
+}
+
+.img-city{
+    height: 200px;
+    width: 320px;
+}
+
+
+
+
+/*          MEET THE TEAM SECTION        */
+
+.section-team{
+    padding: 30px 0;
+}
+
+.section-team h1{
+    margin: 30px auto;
+    text-align: center;
+}
+
+.flexbox-team{
+    margin: 0 auto;
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.profile-photo{
+    height: 200px;
+    width: auto;
+    border-radius: 100%;
+    margin: 20px 0 10px 10px;
+}
+
+.team-bio{
+    width: 70%;
+    text-align: block;
+    margin: 5% 0 20px 15%;
+}
+
+
+/*          FOOTER         */
+
+footer{
+    background:#ffd414;
+    padding: 2%;
+}
+
+.flexbox-bottom{
+    display: flex;
+    width: 60%;
+    justify-content: space-around;
+    font-size: 75%;
+    margin-bottom: 1%;
+}
+
+.asu-logo {
+    height: 80px;
+    width: auto;
+}
+
+.flexbox-bottom p{
+    margin-top: 3%;
+}
+
+footer h3{
+    margin: 0 auto;
+    text-align: center;
+    font-size: 80%;
+
+}
+
+/*      ANIMATIONS      */

@@ -1,6 +1,133 @@
 <!DOCTYPE html>
-<html>
-<body>
-<h1> Hello World </h1>
-</body>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" type="text/css" href="downloads/css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="downloads/css/grid.css">
+        <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,300&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        <title>LightOut</title>
+    </head>
+    <body>
+
+
+        <header>
+            <nav>
+                <div class="section-nav">
+                    <img src="resources/images/logo2.png" alt="Temparory Logo" class="logo">
+                    <p class="logo-text">LightOut</p>
+                    <ul class="main-nav">
+                        <li><a href="#features">What is LightOut?</a></li>
+                        <li><a href="#cities">Locations</a></li>
+                        <li><a href="#team">Meet the Team</a></li>
+                        <li><a href="#signup">Sign Up</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="header-text-box">
+                <h1>We're putting the <i>social</i> back into social media!</h1>
+                <a class="button button-signup js--scroll-to-signup" href="#">Sign Up</a>
+                <a class="button button-login" href="#>">Log In</a>
+            </div>
+        </header>
+
+        <section class="section-features" id="features">
+            <h1>Make Real Connections in the Real World!</h1>
+            <div class="flexbox-features">
+            <img src="resources/images/iphone.png" alt="iphone" class="img-iphone" data-aos="fade-up">
+            <ul class="feature-list">
+                <li><b>Step 1:</b> Download the App</li>
+                <li><b>Step 2:</b> Sign Up</li>
+                <li><b>Step 3:</b> Start Making Connections!</li>
+                <img src="resources/images/applegooglebanner.png" alt="Download on Apple Appstore and Google Playstore" class="applegooglebanner">
+            </ul>
+            </div>
+        </section>
+
+        <section class="section-cities" id="cities">
+
+                <h1>Where do we want to launch?</h1>
+                <div class="flexbox-cities" data-aos="fade" >
+                    <div class="phoenix">
+                        <img src="resources/images/phoenix.png" alt="Phoenix" class="img-city phoenix">
+                        <h2>Phoenix, Arizona</h2>
+                        <p>ASU Downtown Phoenix Campus</p>
+                    </div>
+                    <div class="tempe">
+                        <img src="resources/images/tempe.jpg" alt="Tempe" class="img-city tempe">
+                        <h2>Tempe, Arizona</h2>
+                        <p>ASU Tempe Campus</p>
+                    </div>
+                    <div class="tucson">
+                        <img src="resources/images/tucson.png" alt="Tucson" class="img-city tucson">
+                        <h2>Tucson, Arizona</h2>
+                        <p>UofA Tucson Campus</p>
+                    </div>
+                </div>
+                <div class="college-logos" data-aos="fade">
+                    <img src="resources/images/asu.png" alt="ASU logo" class="img-college asu">
+                    <img src="resources/images/uofa.png" alt="UofA logo" class="img-college uofa">
+                </div>
+
+        </section>
+
+        <section class="section-team" id="team">
+            <h1>Meet The Team</h1>
+            <div class="flexbox-team">
+                <div class="Marco">
+                    <img src="resources/images/marco photo.jpeg" alt="Marco's photo" class="profile-photo">
+                    <p>Marco Villalobos Eribes</p>
+                    <p>Co-founder</p>
+                </div>
+                <div class="Dimetrius">
+                    <img src="resources/images/dimetrius photo.jpeg" alt="Dimetrius' photo" class="profile-photo">
+                    <p>Dimetrius Hightower</p>
+                    <p>Co-founder</p>
+                </div>
+            </div>
+            <div class="team-bio">
+                <p>
+                    LightOut began with a personal problem: Dimetrius and Marco were moving to new apartments around Tempe, Arizona
+                    for their university, yet they didn't know who their neighbors were. </br></br>
+
+                    We knocked on doors to speak to neighbors, but many would not answer the door, and those who did found it to be
+                    a bit awkward and weird that too young adults were meeting their neighbors. </br></br>
+
+                    This led us to build LightOut, which would allow otherwise turn unknown strangers into friendly neighbors that
+                    could led to life-long friendships.
+                </p>
+            </div>
+        </section>
+
+        <footer>
+            <div class="flexbox-bottom">
+                <img src="resources/images/asu.png" alt="ASU logo" class="asu-logo">
+                <p>Contact Us</p>
+                <p>Press</p>
+                <p>iOS App</p>
+                <p>Android App</p>
+            </div>
+            <h3>LightOut</h3>
+        </footer>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="resources/javascript/jqueryscript.js"></script>
+        
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init({
+                duration: 1000,
+                once: true,
+                delay: 1000,
+            });
+        </script>
+        <script src="resources/javascript/script2.js"></script>
+    </body>
+
+
+
+
 </html>
