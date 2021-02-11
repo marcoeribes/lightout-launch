@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang=en>
+    
+    <head>
+        <link rel="stylesheet" type="text/css" href="downloads/css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="resources/css/signupstyle.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,300&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+        <title>Sign Up - Lightout</title>
+    </head>
+    
+    <body>
+        <section class="main">
+            <div class="left-side">
+                <a href="#">
+                    <img src="resources/images/logo2.png" alt="Lightout Logo" class="logo" data-aos="zoom-in">
+                </a>
+                <h1>Lightout</h1>
+                
+            </div>
+            <div class="right-side">
+                
+                <div class="sign-up-form">
+                    <h2>Sign up for Lightout</h2>
+                    <form>
+                        <p>First name</p>
+                        <input type="first-name" class="input-box" placeholder="First Name">
+                        <ion-icon name="person-sharp"></ion-icon>
+
+                        <p>Last name</p>
+                        <input type="last-name" class="input-box" placeholder="Last Name">
+                        <ion-icon name="person-sharp"></ion-icon>
+
+                        <p>Email</p>
+                        <input type="email" class="input-box" placeholder="Email">
+                        <ion-icon name="at-outline"></ion-icon>
+
+                        <p>Password</p>
+                        <input type="password" class="input-box" placeholder="Password">
+                        <ion-icon name="lock-closed"></ion-icon>
+                        <div class="terms">
+                            <p ><span><input type="checkbox" id="check"></span> I agree to the terms of services</p>
+                        </div>
+                        <button type="button" class="button">submit</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    
+
+        <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init({
+                duration: 800,
+                once: true,
+            });
+        </script>
+
+    </body>
+
+
+</html>
