@@ -1,0 +1,121 @@
+
+@media only screen and (max-width: 1300px) {
+    
+    .flexbox-cities{
+        width: 90%;
+        margin: 80px 0 60px 5%;
+        justify-content: space-between;
+        
+    }
+}
+
+
+/* big tablet to 1200px (diths smaller than the 1140px row) */
+@media only screen and (max-width: 1200px) {
+    
+    .flexbox-cities{
+        width: 100%;
+        margin: 80px 0 60px 0;
+        justify-content: space-around;
+        
+    }
+
+    .header-text-box {
+        width: 90%;
+        top: 55%;
+        left: 50%;
+    }
+}
+
+/* small tablets to big tablets: from 786 to 1023px*/
+@media only screen and (max-width: 1023px) {
+
+    .section-nav{
+        flex-direction: column;
+    }
+
+    .logo { 
+        height: auto;
+        width: 70px;
+        margin-top: 5px;
+        margin-left: 40px;
+        margin-right: 20px;
+    }
+
+    .logo-text {
+        position: absolute;
+        margin-top: 60px;
+        margin-left: 100px;
+        color: white;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 150%;
+    }
+   
+    .flexbox-cities{
+        flex-direction: column;
+        width: 100%;
+        margin: 80px 0px 60px;
+        justify-content: space-around;
+    }    
+
+    .box-city{
+        margin-bottom: 60px;
+    }
+
+
+    .header-text-box {
+        width: 92%;
+        top: 65%;
+        left: 50%;
+    }
+
+    .college-logos{
+        margin-top: -60px;
+    }
+
+}
+
+
+/* small phones to small tablets: from 481 to 767px*/
+@media only screen and (max-width: 767px) {
+
+    .main-nav{
+        display: none;
+    }
+
+    .img-iphone{
+        height: 600px;
+        width: 450px;
+    }
+
+    .flexbox-features{
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: center;
+    }
+    
+    .flexbox-team{
+        flex-direction: column;
+        text-align: center;
+        justify-content: space-between;
+    }
+
+}
+
+
+/* small phones: from 0 to 480px*/
+@media only screen and (max-width: 480px) {
+    .img-iphone{
+        height: 400px;
+        width: 300px;
+    }
+}
+
+@media only screen and (max-height: 620px){
+    .header-text-box{
+        bottom: 70px;
+    }
+
+    
+}

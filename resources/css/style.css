@@ -66,7 +66,7 @@ h2 {
 /*          HEADER          */
 
 header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(background1.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.0)), url(background1.jpg);
     background-size: cover;
     background-position: center;
     background-color: #bdc3c7;
@@ -102,14 +102,20 @@ header h1 {
     position: absolute;
     margin-top: 40px;
     margin-left: 90px;
-    color: black;
+    color: white;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 150%;
 }
 
+.section-nav{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+
 .main-nav {
-    float: right;
+    /*float: right;*/
     margin-top: 20px;
     margin-right: 40px;
     list-style: none;
@@ -150,7 +156,7 @@ header h1 {
     font-weight: 300;
     text-decoration: none;
     border-radius: 200px;
-    color: #555;
+    color: #000;
     background-color:#f1c40f;
     margin-right: 20px;
     transition: background-color 0.2s;
@@ -172,8 +178,6 @@ header h1 {
     margin-top: 70px;
     display: flex;
     justify-content: space-evenly;
-
-
 }
 
 .flexbox-features ul{
