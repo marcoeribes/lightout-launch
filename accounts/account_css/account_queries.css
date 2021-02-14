@@ -1,0 +1,33 @@
+
+
+/* small tablets to big tablets: from 786 to 1023px*/
+
+
+
+
+@media only screen and (max-width: 1000px) {
+
+    .left-side{
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width: 850px){
+    
+    .main{
+        background-color: #f9f9fc;
+    }
+}
+
+
+@media only screen and (max-height: 706px){
+
+    .main{
+        height: 706px;
+    }
+ 
+
+
+    
+}

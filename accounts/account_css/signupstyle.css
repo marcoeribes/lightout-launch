@@ -46,6 +46,8 @@ h2 {
     width: 35%;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    margin-top: 160px;
 }
 
 .left-side a{
@@ -54,11 +56,10 @@ h2 {
 
 .logo{
     height: 350px;
-    margin: 35% 30% 0;
 }
 
 .left-side h1{
-    margin: 0 30%;
+    padding: 1px;
 }
 
 /*      RIGHT SIDE      */
@@ -72,7 +73,7 @@ h2 {
 .sign-up-form
 {
     margin: 8% 35% 0;
-    width: 30%;
+    width: 350px;
     /*box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);*/
     padding: 20px;
     background: #f9f9fc;
@@ -87,9 +88,10 @@ h2 {
 
 .sign-up-form p
 {
+    position: relative;
     font-size: 90%;
     color: #000;
-    margin: 0px 0px 10px 40px;
+    margin: 0px 0px 10px 18px;
     text-align: left;
     font-weight: 400;
 }
@@ -106,10 +108,19 @@ h2 {
     border-radius: 20px;
     padding: 12px 10px 10px 40px;
     margin-bottom: 30px;
-    width: 80%;
+    width: 270px;
     border: 1px solid #999;
     background: #f2f2f2;
 }
+
+.input-box:focus{
+    outline: none;
+}
+
+/*.icon{
+    padding: 12px 10px 10px 40px;
+    position: absolute;
+}*/
 
 /*.button:link,
 .button:visited*/
@@ -133,9 +144,10 @@ h2 {
 }
 
 ion-icon{
-    position: absolute;
+    position: relative;
     margin: 10px 0 0 0;
-    left: 61%;
+    left: -263px;
+    top: 4px;
 
 }
 
