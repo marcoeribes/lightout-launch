@@ -80,6 +80,7 @@ h2 {
     padding: 20px;
     background: #f9f9fc;
     text-align: center;
+
 }
 
 .sign-up-form h2
@@ -87,6 +88,8 @@ h2 {
     font-weight: 400;
     margin-bottom: 30px;
 }
+
+
 
 .sign-up-form p
 {
@@ -133,7 +136,8 @@ h2 {
     padding: 10px;
     border-radius: 20px;
     font-size: 15px;
-    margin: 10px 0;
+    margin: 10px 27px 0px 0px;
+    
     border: none;
     outline: none;
     cursor: pointer;
@@ -143,6 +147,7 @@ h2 {
 .button:hover,
 .button:active {
     background: #808080;
+    margin: 10px 27px 0px 0px;
 }
 
 ion-icon{
@@ -205,3 +210,36 @@ ion-icon{
     text-decoration: none;
     color: blue;
 }
+
+/*      ERROR TEXT      */
+
+/*.error-text{
+    position: relative;
+    color: #ff0033;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 75%; 
+    padding-top: 3px;
+    margin: 30px;
+}*/
+
+#login-error {
+    position: relative;
+    color: #ff0033;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 75%; 
+    padding-top: 3px;
+    margin: 20px
+}
+
+#signup-error {
+    position: relative;
+    color: #ff0033;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 75%; 
+    padding-top: 3px;
+    margin: 20px
+}
+

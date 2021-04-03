@@ -96,7 +96,7 @@ header h1 {
 
 .logo { 
     height: 70px;
-    width: auto;
+    width: 52.5px;
     float: left;
     margin-top: 5px;
     margin-left: 40px;
@@ -231,6 +231,11 @@ header h1 {
     color: black;
 }
 
+.img-profile{
+    width: 367px;
+    height: 212px;
+}
+
 
 
 /*          HOW IT WORKS SECTION     */
@@ -251,6 +256,7 @@ header h1 {
 
 .img-chat{
     height: 580px;
+    width: 317px;
 }
 
 .flexbox-chat-rightside{
@@ -268,8 +274,7 @@ header h1 {
 
 .google-maps-logo{
     height: 150px;
-    width: auto;
-
+    width: 267px;
 }
 
 .flexbox-chat-rightside-googlemaps{
@@ -292,31 +297,18 @@ header h1 {
     background-color: #bdc3c7;
     padding: 40px;
     text-align: center;
+
 }
 
 .flexbox-cities{
     display: flex;
     justify-content: space-evenly;
     width: 80%;
-    margin: 80px 0 60px 10%;
+    margin: 80px 0px 60px 10%;
     font-weight: 300;
 }
 
-.colleges{
-    display: flex;
-    flex-direction: center;
-    justify-content: center;
-}
 
-.img-college{
-    height: auto;
-    width: 150px;
-}
-
-.asu{
-    width: 200px;
-    height: auto;
-}
 
 .img-city{
     height: 200px;
@@ -329,7 +321,7 @@ header h1 {
 /*          MEET THE TEAM SECTION        */
 
 .section-team{
-    padding: 30px 0;
+    padding-bottom: 30px;
 }
 
 .section-team h1{
@@ -338,7 +330,7 @@ header h1 {
 }
 
 .flexbox-team{
-    margin: 0 auto;
+    margin: 60px auto;
     width: 60%;
     display: flex;
     justify-content: space-around;
@@ -392,6 +384,10 @@ footer h3{
     text-align: center;
     font-size: 80%;
 
+}
+
+#lightout-text-box-in-nav{
+    display: none;
 }
 
 /*      ANIMATIONS      */

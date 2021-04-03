@@ -7,6 +7,12 @@
         justify-content: space-between;
         
     }
+
+    #lightout-text-box-in-nav{
+        display: none;
+    }
+
+    
 }
 
 
@@ -25,57 +31,104 @@
         top: 55%;
         left: 50%;
     }
+
+    .header-text-box {
+        position: absolute;
+        top: 60%;
+        transform: translate(-50%, -140%);
+    }
 }
 
 /* small tablets to big tablets: from 786 to 1023px*/
 @media only screen and (max-width: 1023px) {
 
     .section-nav{
-        flex-direction: column;
+        flex-direction: row;
     }
 
-    .logo { 
-        height: auto;
-        width: 70px;
-        margin-top: 5px;
-        margin-left: 40px;
-        margin-right: 20px;
-    }
-
-    .logo-text {
-        position: absolute;
-        margin-top: 60px;
-        margin-left: 100px;
-        color: white;
-        text-decoration: none;
-        text-transform: uppercase;
-        font-size: 150%;
-    }
+    .main-nav li {
+        display: inline-block;
+        margin-left: 30px;
+    }   
    
     .flexbox-cities{
         flex-direction: column;
         width: 100%;
-        margin: 80px 0px 60px;
-        justify-content: space-around;
+        margin-bottom: 0px;
     }    
 
     .box-city{
-        margin-bottom: 60px;
+        margin-bottom: 60px
     }
-
 
     .header-text-box {
         width: 92%;
-        top: 65%;
+        top: 70%;
         left: 50%;
     }
 
-    .college-logos{
-        margin-top: -60px;
+    .flexbox-chat-rightside-googlemaps p{
+        text-align: center;
+        margin-top: 10px;
     }
 
 }
 
+@media only screen and (max-width: 960px){
+    .flexbox-profile-header {
+        flex-direction: column;
+        align-items: center;
+    }
+    .img-profile{
+        order: -1;
+        margin-top: 10px;
+    }
+
+    .main-nav li {
+        display: inline-block;
+        margin-left: 20px;
+    }  
+
+    .flexbox-profile-header p{
+        width: 80%;
+    }
+
+    .flexbox-chat{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .flexbox-chat-rightside{
+        margin-top: 60px;
+        width: 80%;
+    }
+
+    .flexbox-chat-rightside-googlemaps p{
+        text-align: center;
+        margin-top: 40px;
+    }
+}
+
+@media only screen and (max-width: 814px){
+    .main-nav {
+        display: none;
+    }
+
+    .flexbox-profile-header p{
+        width: 80%;
+    }
+
+    #lightout-text-box-in-nav{
+        display: inline;
+        margin-top: 20px;
+        margin-right: 40px;
+        font-size: 250%;
+    }
+
+    .lightout-text-header{
+        display: none;
+    }
+}
 
 /* small phones to small tablets: from 481 to 767px*/
 @media only screen and (max-width: 767px) {
@@ -94,12 +147,28 @@
         justify-content: space-between;
         text-align: center;
     }
-    
+
+
     .flexbox-team{
         flex-direction: column;
         text-align: center;
         justify-content: space-between;
+        align-items: center;
     }
+}
+
+@media only screen and (max-width: 701px){
+    .flexbox-chat-rightside-googlemaps{
+        margin-top: -30px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .flexbox-chat-rightside-googlemaps p{
+        margin-bottom: 30px;
+    }
+
 
 }
 
@@ -109,6 +178,32 @@
     .img-iphone{
         height: 400px;
         width: 300px;
+        
+    }
+
+    .flexbox-chat-rightside{
+        width: 100%;
+    }
+
+    .flexbox-profile-header p{
+        width: 95%;
+    }
+
+
+    .team-bio{
+        width: 80%;
+        text-align: justify;
+        margin: 0px 10% 50px 10%;
+    }
+
+
+    .header-text-box{
+        top: 80%;
+    }
+
+    .header{
+        background-size: cover;
+        background-attachment: scroll;
     }
 }
 
@@ -116,6 +211,4 @@
     .header-text-box{
         bottom: 70px;
     }
-
-    
 }
